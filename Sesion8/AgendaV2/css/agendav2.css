@@ -1,5 +1,5 @@
 #contenedor {
-    width: 360px;
+    width: 600px;
     margin: auto;
     background-color: floralwhite;
     padding-left: 10px;
@@ -30,3 +30,8 @@ ul {
     margin: 0px;
     padding-left: 0px;
 }
+
+.datosEmail{
+    width: 350px;
+}
+
