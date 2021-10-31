@@ -1,0 +1,4 @@
+.container .row>div {
+    background-color: whitesmoke;
+    border: 1px solid grey;
+}
