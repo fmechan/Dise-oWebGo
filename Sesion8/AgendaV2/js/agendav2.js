@@ -3,9 +3,9 @@ function guardarDato() {
     var movil = document.getElementById("movil").value;
     var email = document.getElementById("email").value;
 
-    const datos ={
-        'movil':movil,
-        'email':email,
+    const datos = {
+        'movil': movil,
+        'email': email,
     };
 
     localStorage.setItem(nombre, JSON.stringify(datos));
@@ -18,7 +18,7 @@ function guardarDato() {
 
 
 function recuperarDato() {
-    var nombre= document.getElementById("nombre").value;
+    var nombre = document.getElementById("nombre").value;
 
     let datos = localStorage.getItem(nombre);
     datos = JSON.parse(datos);
